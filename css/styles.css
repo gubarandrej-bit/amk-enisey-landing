@@ -170,8 +170,8 @@ a:hover {
 }
 
 .logo {
-    height: 400px;
-    width: 200px;
+    height: 200px;
+    width: 400px;
     border-radius: var(--radius-md);
     background-color: var(--primary);
     padding: 4px;
