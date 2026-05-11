@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="АМК-Енисей - коммерческая недвижимость в Красноярске, Ачинске и Абакане. Торговые комплексы в аренду.">
+    <title>АМК-Енисей | Коммерческая недвижимость</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="images/logo.png" alt="АМК-Енисей" class="logo">
+                <span class="company-name">АМК-Енисей</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">О компании</a></li>
+                <li><a href="#objects" class="nav-link">Объекты</a></li>
+                <li><a href="#advantages" class="nav-link">Преимущества</a></li>
+                <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Коммерческая недвижимость</h1>
+            <p class="hero-subtitle">Торговые комплексы в аренду в городах Красноярского края</p>
+            <a href="#objects" class="btn btn-primary">Смотреть объекты</a>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">О компании</h2>
+            <p class="section-subtitle">ООО "АМК-Енисей" - надежный партнер в сфере коммерческой недвижимости</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Торговых комплекса</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">51 500</div>
+                    <div class="stat-label">кв.м общей площади</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Лет опыта</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OBJECTS SECTION -->
+    <section class="objects" id="objects">
+        <div class="container">
+            <h2 class="section-title">Наши объекты</h2>
+            <p class="section-subtitle">Современные торговые комплексы в Красноярском крае</p>
+            
+            <div class="objects-grid">
+                <!-- OBJECT 1: SOLONTSY -->
+                <div class="object-card" data-aos="fade-up">
+                    <div class="object-image">
+                        <img src="images/solontsy.jpg" alt="Торговый комплекс Солонцы">
+                    </div>
+                    <div class="object-content">
+                        <h3 class="object-title">Торговый комплекс Солонцы</h3>
+                        <p class="object-location">📍 пос. Солонцы, Красноярск</p>
+                        
+                        <div class="object-specs">
+                            <div class="spec">
+                                <span class="spec-label">Площадь:</span>
+                                <span class="spec-value">33 000 кв.м</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Этажность:</span>
+                                <span class="spec-value">2 этажа</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Парковка:</span>
+                                <span class="spec-value">600+ мест</span>
+                            </div>
+                        </div>
+                        
+                        <p class="object-description">Крупный торговый комплекс на 2 этажа с современной инфраструктурой. Идеален для размещения торговых точек, кафе и развлекательных учреждений.</p>
+                        
+                        <button class="btn btn-secondary" onclick="contactForm('Солонцы')">Связаться</button>
+                    </div>
+                </div>
+
+                <!-- OBJECT 2: ACHINSK -->
+                <div class="object-card" data-aos="fade-up">
+                    <div class="object-image">
+                        <img src="images/achinsk.jpg" alt="Торговый комплекс Ачинск">
+                    </div>
+                    <div class="object-content">
+                        <h3 class="object-title">Торговый комплекс Ачинск</h3>
+                        <p class="object-location">📍 г. Ачинск</p>
+                        
+                        <div class="object-specs">
+                            <div class="spec">
+                                <span class="spec-label">Площадь:</span>
+                                <span class="spec-value">14 500 кв.м</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Этажность:</span>
+                                <span class="spec-value">5 этажей</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Парковка:</span>
+                                <span class="spec-value">300+ мест</span>
+                            </div>
+                        </div>
+                        
+                        <p class="object-description">Многоэтажный торговый комплекс с развитой инфраструктурой. Отлично подходит для офисов, торговых помещений и услуг.</p>
+                        
+                        <button class="btn btn-secondary" onclick="contactForm('Ачинск')">Связаться</button>
+                    </div>
+                </div>
+
+                <!-- OBJECT 3: ABAKAN -->
+                <div class="object-card" data-aos="fade-up">
+                    <div class="object-image">
+                        <img src="images/abakan.jpg" alt="Торговый комплекс Абакан">
+                    </div>
+                    <div class="object-content">
+                        <h3 class="object-title">Торговый комплекс Абакан</h3>
+                        <p class="object-location">📍 г. Абакан</p>
+                        
+                        <div class="object-specs">
+                            <div class="spec">
+                                <span class="spec-label">Площадь:</span>
+                                <span class="spec-value">4 500 кв.м</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Этажность:</span>
+                                <span class="spec-value">3 этажа</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Парковка:</span>
+                                <span class="spec-value">130+ мест</span>
+                            </div>
+                        </div>
+                        
+                        <p class="object-description">Современный торговый центр на 3 этажа с удобным расположением. Отличное место для разных типов бизнеса и торговой деятельности.</p>
+                        
+                        <button class="btn btn-secondary" onclick="contactForm('Абакан')">Связаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADVANTAGES SECTION -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас</h2>
+            
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">📍</div>
+                    <h3>Стратегическое расположение</h3>
+                    <p>Объекты расположены в центральных и удобных районах городов Красноярского края</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">🏢</div>
+                    <h3>Современная инфраструктура</h3>
+                    <p>Все комплексы оснащены современным оборудованием и удобствами для бизнеса</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">🚗</div>
+                    <h3>Парковка</h3>
+                    <p>Просторные парковки с достаточным количеством мест для клиентов и сотрудников</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">💼</div>
+                    <h3>Профессиональный сервис</h3>
+                    <p>Опытная команда готова помочь вам найти идеальное помещение для вашего бизнеса</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">📞</div>
+                    <h3>Поддержка 24/7</h3>
+                    <p>Мы всегда готовы ответить на ваши вопросы и обсудить условия сотрудничества</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">🤝</div>
+                    <h3>Гибкие условия</h3>
+                    <p>Мы предлагаем индивидуальные условия аренды под ваши потребности</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS SECTION -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <p class="section-subtitle">Оставьте свои контактные данные, и мы свяжемся с вами в ближайшее время</p>
+            
+            <div class="contacts-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <h3>Телефон</h3>
+                            <a href="tel:+73912235000" class="contact-link">+7 (391) 223-50-00</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-text">
+                            <h3>Электронная почта</h3>
+                            <a href="mailto:amk.arenda@amkenisey.ru" class="contact-link">amk.arenda@amkenisey.ru</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🏢</div>
+                        <div class="contact-text">
+                            <h3>Компания</h3>
+                            <p>ООО "АМК-Енисей"<br>Собственник коммерческой недвижимости</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Ваша электронная почта" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="object" name="object" required>
+                            <option value="">Выберите интересующий объект</option>
+                            <option value="Солонцы">Торговый комплекс Солонцы</option>
+                            <option value="Ачинск">Торговый комплекс Ачинск</option>
+                            <option value="Абакан">Торговый комплекс Абакан</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Ваше сообщение" rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>АМК-Енисей</h3>
+                    <p>Коммерческая недвижимость в Красноярском крае</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#objects">Объекты</a></li>
+                        <li><a href="#advantages">Преимущества</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p>📞 <a href="tel:+73912235000">+7 (391) 223-50-00</a></p>
+                    <p>📧 <a href="mailto:amk.arenda@amkenisey.ru">amk.arenda@amkenisey.ru</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 ООО "АМК-Енисей". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
